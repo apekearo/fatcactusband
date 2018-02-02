@@ -553,7 +553,7 @@ h3.title {
 .about-left {
     padding: 0;
     background: url(../images/img16.jpg)no-repeat 0px 0px;
-    background-size: cover;
+    background-size: contain;
     min-height: 310px;
 }
 .about img {
