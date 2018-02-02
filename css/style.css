@@ -552,7 +552,7 @@ h3.title {
 }
 .about-left {
     padding: 0;
-    background: url(../images/img1.jpg)no-repeat 0px 0px;
+    background: url(../images/img16.jpg)no-repeat 0px 0px;
     background-size: cover;
     min-height: 310px;
 }
@@ -585,7 +585,7 @@ h3.title {
 /*--//about--*/
 /*--skills--*/
 .skills {
-    background: url(../images/slid.jpg)no-repeat 0px 0px;
+    background: url(../images/img15.jpg)no-repeat 0px 0px;
     background-size: cover;
 	padding:5em 0;
 }
@@ -733,7 +733,7 @@ img.zoom-img:hover {
 /*--//albums--*/
 /*--news--*/
 .news {
-    background: url(../images/slid.jpg)no-repeat 0px 0px fixed;
+    background: url(../images/img15.jpg)no-repeat 0px 0px fixed;
     background-size: cover;
 	padding:6em 0;
 }
