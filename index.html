@@ -101,9 +101,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>	 -->
 <!-- New w3 nav attempt-->
 <div class="navbar" style="display:block; margin-left:auto; margin-right:auto;">
-	<a href="#about">Home</a>
-	<a href="#news">News</a>
-	<a href="#contact">Contact</a>
+	<a href="#about" style="float:right">Set List</a>
+	<a href="#news" style="float:right">News</a>
+	<a href="#contact" style="float:right"> Contact</a>
   </div>
   	<!--navigation-->
 	<!--banner-->
@@ -134,6 +134,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>			
 	<!--//banner-->
 	<!--about-->
+	<a href="https://www.facebook.com/fatcactusband/?ref=py_c" style="text-align:center">Fat Cactus's Facebook</a>
 	<div id="about" class="about">
 		<div class="container">
 			<h3 class="title wow fadeInUp animated" data-wow-delay=".5s">About Us</h3>
@@ -168,7 +169,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<span> </span>
 				</a>					
 				<div id="small-dialog" class="mfp-hide">
-					<iframe src="https://www.youtube.com/embed/68huKYbT3l4" allowfullscreen> </iframe>
+					<iframe src="images/video1.mp4" controls autostart="false" allowfullscreen> </iframe>
 				</div>			
 			</div>
 			<div class="col-md-6 skill-right">
@@ -249,7 +250,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!--albums-->
 	<div class="albums" id="album">
 		<div class="container">
-			<h3 class="title wow fadeInUp animated" data-wow-delay=".5s">Album</h3>
+			<h3 class="title wow fadeInUp animated" data-wow-delay=".5s">On-Stage Perfomances</h3>
 			<div class="row services-info">			
 				<div class="col-md-6 services-grids wow fadeInUp animated" data-wow-delay=".5s">
 					<div class="thumbnail">
@@ -313,8 +314,44 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!--news-->
 	<div class="news" id="news">
 		<div class="container">
-			<h3 class="wow fadeInUp animated" data-wow-delay=".5s">News & Events</h3>
-			<div class="news-info">	
+			<h3 class="wow fadeInUp animated" data-wow-delay=".5s">Set Lists</h3>
+			<!-- Testing how a carosel in here with set list images -->
+
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+				  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				  <li data-target="#myCarousel" data-slide-to="1"></li>
+				  <li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+			  
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+				  <div class="item active">
+					<img src="images/dancesongs.jpg" alt="Dance Songs">
+				  </div>
+			  
+				  <div class="item">
+					<img src="images/bluesSongs.jpg" alt="Chicago">
+				  </div>
+			  
+				  <div class="item">
+					<img src="images/jazzsongs.jpg" alt="New York">
+				  </div>
+				</div>
+			  
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				  <span class="glyphicon glyphicon-chevron-left"></span>
+				  <span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+				  <span class="glyphicon glyphicon-chevron-right"></span>
+				  <span class="sr-only">Next</span>
+				</a>
+			  </div>
+			
+			<!-- <div class="news-info">	
 				<div class="col-md-4 news-grids wow zoomIn animated" data-wow-delay=".5s">
 					<h4><span>13/16</span>April</h4>
 					<p>We are prepared to perform an instrumental or vocal full night of jazz songs from New Orleans to modern to original. 
@@ -332,7 +369,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<a href="#">Read More</a>
 				</div>				
 				<div class="clearfix"> </div>
-			</div>
+			</div> -->
 		</div>
 	</div>
 	<!--//news-->

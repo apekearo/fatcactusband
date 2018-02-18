@@ -330,7 +330,7 @@ nav.navbar.navbar-default {
 	background-size:cover; 
 }
 .banner2{
-	background:url(../images/img12.jpg)no-repeat 0px 0px;
+	background:url(../images/img124.jpg)no-repeat 0px 0px;
 	background-size:cover; 
 }
 .banner-text {
@@ -867,7 +867,7 @@ img.zoom-img:hover {
 /*--//--*/
 /*--contact--*/
 .contact {
-    background: url(../images/slid2.jpg)no-repeat 0px 0px;
+    background: url(../images/img1.jpg)no-repeat 0px 0px;
     background-size: cover;
     padding: 5em 0 0;
 }
